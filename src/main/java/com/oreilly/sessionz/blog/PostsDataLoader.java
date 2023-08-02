@@ -16,7 +16,10 @@ public class PostsDataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        List<Post> posts = jsonPlaceholderService.loadPosts();
-        posts.forEach(System.out::println);
+        var loadPosts = false;
+        if(loadPosts) {
+            List<Post> posts = jsonPlaceholderService.loadPosts();
+            posts.forEach(System.out::println);
+        }
     }
 }

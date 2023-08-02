@@ -1,8 +1,11 @@
 package com.oreilly.sessionz.event;
 
+import org.springframework.data.annotation.Id;
+
 import java.time.LocalDate;
 
 public record Event(
+        @Id
         Integer id,
         String name,
         String description,

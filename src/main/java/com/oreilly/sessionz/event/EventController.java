@@ -11,38 +11,38 @@ import java.util.Optional;
 @RequestMapping("/api/events")
 class EventController {
 
-    public EventService eventService;
+    private final EventRepository eventRepository;
 
-    public EventController(EventService eventService) {
-        this.eventService = eventService;
+    public EventController(EventRepository eventRepository) {
+        this.eventRepository = eventRepository;
     }
 
     @GetMapping
     public List<Event> findAll() {
-        return eventService.findAll();
+        return eventRepository.findAll();
     }
 
     @GetMapping("/{id}")
     public Optional<Event> findEventById(@PathVariable Integer id) {
-        return eventService.findById(id);
+        return eventRepository.findById(id);
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     public void create(@Valid @RequestBody Event event) {
-        eventService.create(event);
+        eventRepository.save(event);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping("/{id}")
     public void update(@Valid @RequestBody Event updatedEvent, Integer id) {
-        eventService.update(updatedEvent, id);
+        eventRepository.save(updatedEvent);
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Integer id) {
-        eventService.delete(id);
+        eventRepository.deleteById(id);
     }
 
 }
