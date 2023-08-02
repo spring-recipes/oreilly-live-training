@@ -1,0 +1,19 @@
+scalar Date @specifiedBy(url:"https://tools.ietf.org/html/rfc3339")
+scalar Url @specifiedBy(url:"https://www.w3.org/Addressing/URL/url-spec.txt")
+
+type Query {
+    events: [Event]
+    event(id: ID!): Event
+}
+
+type Event {
+    id: ID!
+    name: String!
+    description: String!
+    startDate: Date!
+    endDate: Date!
+    cfpStartDate: Date!
+    cfpEndDate: Date!
+    location: String
+    website: Url
+}
