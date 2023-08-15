@@ -16,27 +16,23 @@ This repository contains the code for the Spring Recipes live training on the O'
   - Explore the pom.xml
 - Add Actuator to an existing project
   - Start the application
-  - What endpoints are available (not many)
-  - Add properties
-  - Show key endpoints
-    - Show info endpoint 
+    - What endpoints are available (not many)
+    - Add properties
+  - Show Info Endpoint 
     - Add custom info
     - Enable custom info endpoints
   - Add REST controller show mappings and beans endpoints
+  - Tour of Endpoints
   - Create your own endpoint
     - Random Endpoint
-
-### Gateway
-
-The Gateway example will be a separate service that will proxy requests to a public API.
-
-### Circuit Breaker
-
-Call a public API to load posts and introduce some latency to simulate a slow response.
 
 ### Observability
 
 Add Observability to the Sessionz application to monitor HTTP calls to the API. 
+
+### Gateway
+
+The Gateway example will be a separate service that will proxy requests to a public API.
 
 ## Security 
 
