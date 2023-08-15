@@ -57,4 +57,3 @@ The Gateway example will be a separate service that will proxy requests to a pub
 
 - [Website](https://www.danvega.dev/)
 - [Twitter](https://twitter.com/therealdanvega)
-
