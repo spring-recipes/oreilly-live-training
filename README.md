@@ -4,11 +4,41 @@ This repository contains the code for the Spring Recipes live training on the O'
 
 ## Getting Started
 
+- Spring Initializr
+- Code Structure
+  - Avoid default package
+  - Main application class should live in the same package as the rest of your code
+  - Use packages to organize your code
+    - package by layer 
+    - package by feature
+  - Dependency Injection
+  - Logging
+  - DevTools
+
 ## Web Applications
+
+- Building a REST API
+- Validating Data
+- HTTP Clients
+- GraphQL
 
 ## Databases
 
+- Connecting to and H2 database
+- What about a real database? 
+  - Docker Compose Module
+  - How to view the database?
+- Spring Data
+  - Show off Spring Data JDBC (Event.java)
+- Populating the database
+  - DDL script 
+  - Programmatically 
+
 ## Spring Cloud
+
+- Actuator
+- Observability
+- Gateway
 
 ### Actuator
 
@@ -36,7 +66,7 @@ This repository contains the code for the Spring Recipes live training on the O'
 Observability was one of the major themes in Spring Framework 6 + Spring Boot 3
 
 - Java 17
-- jakarta ee
+- Jakarta EE
 - Observability
 - Spring Native (AOT)
 
@@ -89,21 +119,60 @@ Demo Steps
 
 ### Gateway
 
-The Gateway example will be a separate service that will proxy requests to a public API.
+The Gateway service is in its own [repository](https://github.com/spring-recipes/gateway-service) to simplify the demo.
 
 ## Security
 
-## Testing
+The Security example is in its own [repository](https://github.com/spring-recipes/secure) to simplify the demo.
 
 ## Production
 
+- Configuration
+  - Property Sources
+  - @Value annotation
+  - @ConfigurationProperties
+  - Profiles
+- Packaging Options
+  - Building an Executable JAR
+  - Building a Container Image
+  - Building a Native Image
+    - Use Cases for Native Images (show off CLI if we have time)
+- Spring Boot 3.2 (Virtual Threads)
+- Deploying your application to...
+
+### Hosts
+
+Here are a few services that you can deploy your Spring Boot Applications on:
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com/)
+- [Azure Spring Apps](https://azure.microsoft.com/en-us/products/spring-apps)
+- [Google Cloud](https://cloud.google.com/)
+- [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)
+- [Cloud Foundry](https://www.cloudfoundry.org/)
+- [Digital Ocean](https://www.digitalocean.com/)
+- [Railway](https://railway.app/)
+- [Heroku](https://www.heroku.com/)
+- [Render](https://render.com/)
+- [Fly.io](https://fly.io/)
+- [Porter](https://porter.run/)
+
+## Getting to Production with Spring Boot
+
+Here are a few videos from Spring Office Hours and Dan's YouTube channel on moving your Spring Boot applications into production.
+
+- [Spring Office Hours: Spring to Production Part 1](https://tanzu.vmware.com/developer/tv/spring-office-hours/0015/)
+- [Spring Office Hours: Spring to Production Part 2](https://tanzu.vmware.com/developer/tv/spring-office-hours/0016/)
+- [Spring Boot Azure](https://youtu.be/53T_R3xAPTg)
+- [Spring Boot Heroku](https://youtu.be/lGtTOLKuvqs)
+- [Spring BOot Railway](https://youtu.be/5sVxvF47dcU)
 
 ## Resources
 
 ### Repositories
 
-- [Spring Recipes](https://github.com/spring-recipes/oreilly-live-training/tree/main)
-- [Gateway]()
+- [Spring Recipes](https://github.com/spring-recipes/oreilly-live-training)
+- [Gateway](https://github.com/spring-recipes/gateway-service)
+- [Security](https://github.com/spring-recipes/secure)
 
 ### Nate Schutta
 
