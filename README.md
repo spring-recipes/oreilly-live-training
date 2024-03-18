@@ -168,11 +168,9 @@ Here are a few videos from Spring Office Hours and Dan's YouTube channel on movi
 
 ## Resources
 
-### Repositories
-
-- [Spring Recipes](https://github.com/spring-recipes/oreilly-live-training)
-- [Gateway](https://github.com/spring-recipes/gateway-service)
-- [Security](https://github.com/spring-recipes/secure)
+- [Spring Office Hours](https://springofficehours.io)
+- [Resources for Learning Spring](https://github.com/spring-office-hours/resources-learning-spring)
+- [Fundamentals of Software Engineering](https://learning.oreilly.com/library/view/fundamentals-of-software/9781098143220/)
 
 ### Nate Schutta
 
@@ -182,4 +180,5 @@ Here are a few videos from Spring Office Hours and Dan's YouTube channel on movi
 ### Dan Vega
 
 - [Website](https://www.danvega.dev/)
+- [YouTube](https://www.youtube.com/@danvega)
 - [Twitter](https://twitter.com/therealdanvega)
