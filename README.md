@@ -14,6 +14,7 @@ This repository contains the code for the Spring Recipes live training on the O'
   - Dependency Injection
   - Logging
   - DevTools
+  - OpenRewrite Demo
 
 ## Web Applications
 
@@ -40,6 +41,8 @@ This repository contains the code for the Spring Recipes live training on the O'
 - Actuator
 - Observability
 - Gateway
+
+The Gateway service is in its own [repository](https://github.com/spring-recipes/gateway-service) to simplify the demo.
 
 ### Actuator
 
@@ -117,10 +120,6 @@ Demo Steps
     - Docker Compose
     - Login to Grafana and create a dashboard
   - Zipkin
-
-### Gateway
-
-The Gateway service is in its own [repository](https://github.com/spring-recipes/gateway-service) to simplify the demo.
 
 ## Security
 
