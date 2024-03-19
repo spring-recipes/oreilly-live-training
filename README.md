@@ -20,19 +20,17 @@ This repository contains the code for the Spring Recipes live training on the O'
 - Building a REST API
 - Validating Data
 - HTTP Clients
-- GraphQL
 
 ## Databases
 
-- Connecting to and H2 database
+- Connecting to an H2 database
 - What about a real database? 
   - Docker Compose Module
   - How to view the database?
-- Spring Data
-  - Show off Spring Data JDBC (Event.java)
-- Populating the database
-  - DDL script 
-  - Programmatically 
+- Database Abstractions 
+  - `JdbcTemplate`
+  - `JdbcClient`
+  - Spring Data
 
 ## Spring Cloud
 
@@ -168,11 +166,9 @@ Here are a few videos from Spring Office Hours and Dan's YouTube channel on movi
 
 ## Resources
 
-### Repositories
-
-- [Spring Recipes](https://github.com/spring-recipes/oreilly-live-training)
-- [Gateway](https://github.com/spring-recipes/gateway-service)
-- [Security](https://github.com/spring-recipes/secure)
+- [Spring Office Hours](https://springofficehours.io)
+- [Resources for Learning Spring](https://github.com/spring-office-hours/resources-learning-spring)
+- [Fundamentals of Software Engineering](https://learning.oreilly.com/library/view/fundamentals-of-software/9781098143220/)
 
 ### Nate Schutta
 
@@ -182,4 +178,5 @@ Here are a few videos from Spring Office Hours and Dan's YouTube channel on movi
 ### Dan Vega
 
 - [Website](https://www.danvega.dev/)
+- [YouTube](https://www.youtube.com/@danvega)
 - [Twitter](https://twitter.com/therealdanvega)
