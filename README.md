@@ -20,6 +20,9 @@ This repository contains the code for the Spring Recipes live training on the O'
 - Building a REST API
 - Validating Data
 - HTTP Clients
+  - `RestTemplate`
+  - `RestClient`
+  - Http Interfaces
 
 ## Databases
 
@@ -153,16 +156,6 @@ Here are a few services that you can deploy your Spring Boot Applications on:
 - [Render](https://render.com/)
 - [Fly.io](https://fly.io/)
 - [Porter](https://porter.run/)
-
-## Getting to Production with Spring Boot
-
-Here are a few videos from Spring Office Hours and Dan's YouTube channel on moving your Spring Boot applications into production.
-
-- [Spring Office Hours: Spring to Production Part 1](https://tanzu.vmware.com/developer/tv/spring-office-hours/0015/)
-- [Spring Office Hours: Spring to Production Part 2](https://tanzu.vmware.com/developer/tv/spring-office-hours/0016/)
-- [Spring Boot Azure](https://youtu.be/53T_R3xAPTg)
-- [Spring Boot Heroku](https://youtu.be/lGtTOLKuvqs)
-- [Spring BOot Railway](https://youtu.be/5sVxvF47dcU)
 
 ## Resources
 
