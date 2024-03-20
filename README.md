@@ -11,10 +11,10 @@ This repository contains the code for the Spring Recipes live training on the O'
   - Use packages to organize your code
     - package by layer 
     - package by feature
-  - Dependency Injection
+  - Post class / record
   - Logging
   - DevTools
-  - OpenRewrite Demo
+  - Dependency Injection
 
 ## Web Applications
 
@@ -139,6 +139,7 @@ The Security example is in its own [repository](https://github.com/spring-recipe
     - Use Cases for Native Images (show off CLI if we have time)
 - Spring Boot 3.2 (Virtual Threads)
 - Deploying your application to...
+- OpenRewrite Demo
 
 ### Hosts
 
